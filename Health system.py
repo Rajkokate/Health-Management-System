@@ -73,8 +73,8 @@ def retrieve(k):
                     print(i, end="")
     else:
         print("plz enter valid input (kunal,vinay,raj)")
-print("health management system: ")
-a=int(input("Press 1 for log the value and 2 for retrieve "))
+print("Health Management System: ")
+a=int(input("Press 1 for stored  the data and 2 for retrieved the data "))
 
 if a==1:
     b = int(input("Press 1 for kunal 2 for vinay 3 for raj "))
