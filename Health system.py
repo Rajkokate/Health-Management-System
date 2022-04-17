@@ -5,36 +5,36 @@ def take(k):
     if k==1:
         c=int(input("enter 1 for excersise and 2 for food"))
         if(c==1):
-            value=input("type here\n")
+            value=input("Type here\n")
             with open("kunal-ex.txt","a") as op:
                 op.write(str([str(gettime())])+": "+value+"\n")
             print("successfully written")
         elif(c==2):
-            value = input("type here\n")
+            value = input("Type here\n")
             with open("kunal-food.txt", "a") as op:
                 op.write(str([str(gettime())]) + ": " + value + "\n")
             print("successfully written")
     elif(k==2):
         c = int(input("enter 1 for excersise and 2 for food"))
         if (c == 1):
-            value = input("type here\n")
+            value = input("Type here\n")
             with open("vinay-ex.txt", "a") as op:
                 op.write(str([str(gettime())]) + ": " + value + "\n")
             print("successfully written")
         elif (c == 2):
-            value = input("type here\n")
+            value = input("Type here\n")
             with open("vinay-food.txt", "a") as op:
                 op.write(str([str(gettime())]) + ": " + value + "\n")
             print("successfully written")
     elif(k==3):
         c = int(input("enter 1 for excersise and 2 for food"))
         if (c == 1):
-            value = input("type here\n")
+            value = input("Type here\n")
             with open("raj-ex.txt", "a") as op:
                 op.write(str([str(gettime())]) + ": " + value + "\n")
             print("successfully written")
         elif (c == 2):
-            value = input("type here\n")
+            value = input("Type here\n")
             with open("raj-food.txt", "a") as op:
                 op.write(str([str(gettime())]) + ": " + value + "\n")
             print("successfully written")
